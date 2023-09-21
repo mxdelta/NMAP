@@ -16,4 +16,8 @@ https://github.com/SkillfactoryCoding/HACKER-OS-nmap.vulners https://github.com/
 
 -A - агрессивное сканирование со скриптами - определяет все что можно
 
+-sC - скрипты по умолчанию
 
+sudo nmap -sU 10.129.77.175  - сканирование UDP портов
+
+--min-rate 1000 минимальное число пакетов
